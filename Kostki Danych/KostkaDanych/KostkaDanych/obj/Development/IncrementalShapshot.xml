@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>KostkaDanych</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>nzWFttpzeSUBZGVdnY0J6HKt4kg=12.06.2019 16:38:0412.06.2019 16:38:04</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Ja4/9s1Mx9lZ+k69uPnNDYJ+s7A=12.06.2019 16:38:3512.06.2019 16:38:34</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ovmbA5JdGDAiyXykWZxIxPypaDg=12.06.2019 16:39:3712.06.2019 16:39:36</TimeStamp>
+        <ID>
+          <String>Dim Airline</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ckyhg5eHo4cwFgN9rWtA8GAp1kE=12.06.2019 16:39:3712.06.2019 16:39:36</TimeStamp>
+        <ID>
+          <String>Dim Airport</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0IaaghgsIbF97w9QWPpRS3XYxhM=12.06.2019 16:39:3712.06.2019 16:39:36</TimeStamp>
+        <ID>
+          <String>Dim Date Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sWkiWGeJjZdIpFHoyvGO48zmEVk=12.06.2019 16:39:3712.06.2019 16:39:36</TimeStamp>
+        <ID>
+          <String>Dim Delay Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SLBXzE9mRpl/3dKPy84PU7WLUl8=12.06.2019 16:39:3712.06.2019 16:39:36</TimeStamp>
+        <ID>
+          <String>Dim Distance</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wFWe6g5Ui3ctMbuifMQnRmwk1GE=12.06.2019 16:39:3712.06.2019 16:39:36</TimeStamp>
+        <ID>
+          <String>Dim Flight Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LU2eS3vhJkUuq+CJaT60O+LOeD4=12.06.2019 16:39:3712.06.2019 16:39:37</TimeStamp>
+        <ID>
+          <String>Dim Plane</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>GxsATCnb3jSjF6JeUooA2HH7WVc=12.06.2019 19:36:0512.06.2019 16:39:36TvKA+UMLz8b04FkhdoEC1xZ0Udg=12.06.2019 19:36:0512.06.2019 16:39:36</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>lweH5BAtw9+b7ylZviUApxdHAw0=12.06.2019 16:36:0012.06.2019 16:36:00</TimeStamp>
+      <ID>
+        <String>KostkaDanych</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-06-12T17:36:12.87Z</LastDeployed>
+</DeploymentSnapshot>
