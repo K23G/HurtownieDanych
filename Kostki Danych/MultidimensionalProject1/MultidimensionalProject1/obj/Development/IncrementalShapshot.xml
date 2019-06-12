@@ -26,14 +26,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>sl0RBbSbqjvpjS7reka3Ru5axCw=12.06.2019 20:49:1612.06.2019 20:49:13</TimeStamp>
+        <TimeStamp>5UJOnRC2K8w8iiM+2Y32TYklSNI=12.06.2019 23:54:3212.06.2019 20:49:13</TimeStamp>
         <ID>
           <String>Hurtownie Danych</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>m5+L/7zOsUADMIphYX395ODHcsw=12.06.2019 23:24:5112.06.2019 20:53:45</TimeStamp>
+        <TimeStamp>lv3TXGoObu7+EGB9gtI7x+l5FFw=13.06.2019 00:00:0112.06.2019 20:53:45</TimeStamp>
         <ID>
           <String>Dim Date Time</String>
         </ID>
@@ -82,7 +82,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>lmUCuEYRj2UsReZ7DmrsKgk9L+I=12.06.2019 22:51:4312.06.2019 20:53:45mTsJhspPa6hOJmxaFn4S87lK8mI=12.06.2019 22:51:0512.06.2019 20:53:45</TimeStamp>
+        <TimeStamp>tzRjuJFy06zkkhZHfgv1H9rB9tE=12.06.2019 23:54:3212.06.2019 20:53:45mTsJhspPa6hOJmxaFn4S87lK8mI=12.06.2019 22:51:0512.06.2019 20:53:45</TimeStamp>
         <ID>
           <String>Hurtownie Danych</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-06-12T21:24:59.246667Z</LastDeployed>
+  <LastDeployed>2019-06-12T22:00:07.36Z</LastDeployed>
 </DeploymentSnapshot>
