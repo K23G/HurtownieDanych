@@ -161,7 +161,7 @@ BEGIN
 			MonthOfQuarter = @MonthOfQuarter,
 			Quarter = @Quarter,
 			QuarterName = @QuarterName,
-			IsWeekday = @IsWeekday,
+			IsWeekday = @IsWeekday
 		WHERE ID_DateTime = @Iter
 		SET @Iter = @Iter + 1
 	END;

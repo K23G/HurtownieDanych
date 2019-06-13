@@ -33,7 +33,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>lv3TXGoObu7+EGB9gtI7x+l5FFw=13.06.2019 00:00:0112.06.2019 20:53:45</TimeStamp>
+        <TimeStamp>wfTWF7+2G34zeGRWPQfaxDHrQZk=13.06.2019 00:26:2912.06.2019 20:53:45</TimeStamp>
         <ID>
           <String>Dim Date Time</String>
         </ID>
@@ -82,7 +82,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>tzRjuJFy06zkkhZHfgv1H9rB9tE=12.06.2019 23:54:3212.06.2019 20:53:45mTsJhspPa6hOJmxaFn4S87lK8mI=12.06.2019 22:51:0512.06.2019 20:53:45</TimeStamp>
+        <TimeStamp>QQtmgAUyMUjvzrVZ40nQ3E72CaQ=13.06.2019 01:01:5512.06.2019 20:53:45mTsJhspPa6hOJmxaFn4S87lK8mI=12.06.2019 22:51:0512.06.2019 20:53:45</TimeStamp>
         <ID>
           <String>Hurtownie Danych</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-06-12T22:00:07.36Z</LastDeployed>
+  <LastDeployed>2019-06-12T23:01:59.756667Z</LastDeployed>
 </DeploymentSnapshot>
