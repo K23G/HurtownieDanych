@@ -1,0 +1,12 @@
+drop table MainRepo.FactFlight;
+drop table MainRepo.DimAirline;
+drop table MainRepo.DimPlane;
+drop table MainRepo.DimFlightStatus;
+drop table MainRepo.DimAirport;
+drop table MainRepo.DimDateTime;
+drop table MainRepo.DimDelayType;
+drop table MainRepo.DimDistance;
+drop table Stage.airlines;
+drop table Stage.Airports;
+drop table Stage.DelayAirport;
+drop table Stage.Flights;

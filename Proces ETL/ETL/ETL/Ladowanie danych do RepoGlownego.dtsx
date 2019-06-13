@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Ladowanie danych do RepoGlownego"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{B4B15D81-23D0-4BBC-87A7-F3BBCB4148BA}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{02F4626D-B36A-470C-82AF-B16661E52361}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

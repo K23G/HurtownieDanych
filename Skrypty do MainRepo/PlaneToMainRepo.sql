@@ -18,7 +18,7 @@ BEGIN
 	
 	INSERT INTO MainRepo.DimPlane 
 	SELECT TAIL_NUMBER as TailNumber from Stage.Flights
-	WHERE TAIL_NUMBER is not null
+	where TAIL_NUMBER is not null and TAIL_NUMBER != 'Unknow'
 	EXCEPT
 	select TailNumber
 	from MainRepo.DimPlane
